@@ -27,9 +27,9 @@ def forever():
     elif P1 and P2 == 1:
             basic.show_string("C")
     elif P1 == 1:
-        basic.show_number(2)
+        basic.show_string("B")
     elif P2 == 1:
-        basic.show_number(1)
+        basic.show_string("A")
     else:   
         basic.show_leds("""
         # . # . #

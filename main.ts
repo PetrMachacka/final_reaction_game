@@ -24,9 +24,9 @@ basic.forever(function forever() {
     } else if (P1 && P2 == 1) {
         basic.showString("C")
     } else if (P1 == 1) {
-        basic.showNumber(2)
+        basic.showString("B")
     } else if (P2 == 1) {
-        basic.showNumber(1)
+        basic.showString("A")
     } else {
         basic.showLeds(`
         # . # . #
